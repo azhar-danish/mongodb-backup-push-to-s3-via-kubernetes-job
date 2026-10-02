@@ -1,6 +1,6 @@
 Mongodb-backup-push-to-s3-via-k8s-job
 
-1. Create a bucket with name like "my-mongodb-backups-azhar"
+1. Create a AWS s3 bucket with name like "my-mongodb-backups-azhar"
 
 2. Create an IAM user like "users3fullAccess" and add policy "AmazonS3FullAccess" and add Custom Inline Policy   
     {
