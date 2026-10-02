@@ -1,4 +1,4 @@
-Mongodb-backup-push-to-s3-via-k8s-job
+Mongodb-backup-push-to-s3-via-kubernetes-job
 
 1. Create a AWS s3 bucket with name like "my-mongodb-backups-azhar"
 
@@ -22,7 +22,7 @@ Mongodb-backup-push-to-s3-via-k8s-job
 
 5. docker push azhardanish9/mongodb-backup:1.0
 
-6.  Using CLI 
+6.  Using CLI  create aws-credential secrets
 
     kubectl create secret generic aws-credentials \
     --from-literal=AWS_ACCESS_KEY_ID='YOUR_ACCESS_KEY' \
